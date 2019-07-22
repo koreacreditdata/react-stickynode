@@ -335,8 +335,6 @@ class Sticky extends Component {
 
         if (this.props.enabled) {
             this.setState({activated: true});
-            this.updateInitialDimension();
-            this.update();
         }
         // bind the listeners regardless if initially enabled - allows the component to toggle sticky functionality
         this.subscribers = [
